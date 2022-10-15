@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<meta charset = "utf-8"/>
+	<link rel = "meta" type = "application/rdf+xml" href = "rdf.xml" />
+	<link rel = "stylesheet" type = "text/css" href = "Stylesheet.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+	<title> Ryan Brown Home </title>
+
+	<meta name="keywords" content="Ryan, Brown, writing, computing, computers, microsoft office, word, excel, editing, drones, formula1, data, data analysis"/>
+	<meta name="description" content="The personal website of Ryan Brown, interested in drones and formula one." />
+	<meta name="viewport" content="width=device-width, initial scale=1.0"/>
+</head>
+
+<!-- cookie banner from https://www.osano.com/cookieconsent/download/ -->
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#f1d600"
+    }
+  },
+  "content": {
+    "message": "By continuing to use our site, you understand that we use cookies to improve your experience and collect analytics data. Learn more in our Privacy Policy.",
+    "href": "www.ryanbrown.me.uk/PrivacyPolicy.html"
+  }
+});
+</script>
+
+<script type="text/javascript">
+function writeCookie1() {
+  document.cookie = 'cookie=Yes; expires=Fri, 1 Jan 2150 05:28:21 UTC; path=/';
+  }
+
+function readCookie(name)
+{
+  var ca = document.cookie.split(';');
+  var nameEQ = name + "=";
+  for(var i=0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0)==' ') c = c.substring(1, c.length); //delete spaces
+    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+    }
+  return null;
+}
+
+function eraseCookie(name)
+{
+  createCookie(name, "", -1);
+}
+</script>
+
+<body>
+<h1> Ryan Brown </h1>
+
+<div>
+	<div class="topnav">
+		<a href="index.html">Home</a>
+		<a href="MyProjects.html">My Projects</a>
+		<a href="Education.html">My Education</a>
+		<a href="MyBlog.html">My Blog</a>
+		<a href="Gallery.html">Gallery</a>
+		<a href="ImpossibleList.html">Impossible List</a>
+	</div>
+</div>
+
+<h2>
+About Me
+</h2>
+
+<p>
+	Hello Everyone!
+	<br><br>
+	My name is Ryan Brown and I’m a BSc (Hons) Computer Science graduate from Heriot Watt University who is currently working as a data analyst. I can also send you my CV if you contact me using any of the links below.
+	<br>
+	This is my website, so please feel free to explore and let me know what you think. I have a blog, and I enjoy using
+	my drone so please feel free to check back regularly to see what I have been doing.
+	<br>
+	I also enjoy watching formula one (and attended the 2017 British GP at Silverstone).
+	<br><br>
+	<br><br>
+	If you wish to send me a message, you can find me on:
+	<br>
+	Twitter - <a href = "https://twitter.com">[at] merryroversrule</a><br>
+	Instagram - <a href = "https://www.instagram.com">[at] merryroversrule</a> <br>
+	Email - <a href = "mailto:">ryan1999brown [at] gmail [dot] com</a> <br>
+	<br><br>
+	We are in a climate emergency. The Climate Clock listed on this page tells us what we and by when. For more details, visit <a href = "https://climateclock.world/science"></a>
+	<script src="https://climateclock.world/widget-v2.js" async></script>
+	<climate-clock/>
+	<br><br>
+</p>
+	
+<div class = "banner">
+	<br>
+	Her Majesty Queen Elizabeth II
+	<br>
+	21 April 1926 - 8 September 2022
+	<br><br>
+	Ryan Brown is deeply saddened by the death of Her Majesty Queen Elizabeth II. My thoughts go to the Royal Family
+	at this time.
+	<br><br>
+</div>
+
+<div class="footer">
+  	Ryan Brown, copyright 2021.
+	<br>
+	All photos on this site were taken by Ryan Brown and licensed under Creative Commons:
+	<a href = "https://creativecommons.org/licenses/by-nc/4.0/">License</a>
+	View my
+	<a href = "PrivacyPolicy.html">Privacy Policy</a>
+	<br>
+</div>
+</body>
+</html>
